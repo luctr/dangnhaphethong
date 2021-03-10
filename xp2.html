@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập hệ thống</title>
+</head>
+<body>
+    <script>
+        let userName= prompt("Ai đó? ", '');
+
+        if (userName == 'Admin') {
+
+        }else if(userName == null){
+            alert('Đã hủy');
+        }else {
+            alert("Tôi không biết bạn");
+        }
+        let pass = prompt('Mật khẩu','');
+
+        if (pass == 'TheMaster'){
+            alert('Welcome!');
+        } else if (pass == null){
+            alert('Đã hủy');
+        }else{
+            alert('Sai mật khẩu')
+        }
+    </script>
+</body>
+</html>
